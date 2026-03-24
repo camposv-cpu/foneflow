@@ -2,32 +2,39 @@
 <html>
     <head>
         <title>fone flow</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     </head>
-    <body>
+    <body class="bg-dark">
         <header>
-            <nav>
-                <span>🎧 fone flow</span> 
-                <!-- lista desordenada--->
-                <ul>
-                    <li>
-                        <a href="#sobre">Sobre</a>
-                    </li>
-                    <li>
-                        <a href="#funcionaridaes">funciolidades</a>
-                    </li>
-                <li>
-                    <a href="#especificacoes">Especificações</a>
-                </li>
-                <li>
-                    <a href="#depoimentos">Depoimentos</a>
-                </li>
-                <li>
-                    <a href="#comprar">Comprar</a>
-                </li>
-                </ul>
-            </nav>
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <di class="container">
+
+                    <a href="#" class="navbar-brand fw-bold fs-4">🎧 fone flow</a> 
+                    <!-- lista desordenada--->
+                     <div class="collapse navbar-collapse" id="menuNav">
+
+                         <ul class="navbar-nav ms-auto gap-2">
+                             <li calss="nav-item">
+                                 <a class="nav-link" href="#sobre">Sobre</a>
+                                </li >
+                                <li calss="nav-item">
+                                    <a class="nav-link" href="#funcionaridaes">funciolidades</a>
+                                </li>
+                                <li calss="nav-item">
+                                    <a class="nav-link" href="#especificacoes">Especificações</a>
+                                </li>
+                                <li calss="nav-item">
+                                    <a class="nav-link" href="#depoimentos">Depoimentos</a>
+                                </li>
+                                <li calss="nav-item">
+                                    <a class="btn btn-cta btn-sm" href="#comprar">Comprar</a>
+                                </li>
+                            </ul>
+                        </div>
+                </div>
+                </nav>
         </header>
-        <secion>
+        <secion id="hero" class="d-flex align-itens -center">
             <div>
                 <div>
                     <div>
@@ -57,6 +64,49 @@
             </div>
 
         </secion>
+        <section id="sobre">
+        <div>
+            <div>
+                <div>
+                    <img
+                        src="https://images.tcdn.com.br/img/img_prod/1042771/fone_de_ouvido_sem_fio_cat_bluetooth_5_0_led_drivers_40mm_viv_23m_8347_1_cc3a6053d527f61c7ba4af7ffc1da0f1.jpg" 
+                        alt=""
+                        width="560"
+                        height="400"/>
+                </div> 
+                <div>
+                    <span>Sobre o produto</span>
+                    <h2> O que é o FoneFlow Pro x?</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia corrupti placeat quia officiis, odio temporibus harum nulla natus beatae illum animi, iste cum laboriosam totam, rerum esse eligendi quod corporis?
+                    </p> 
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident aliquam autem molestias corrupti reiciendis explicabo maxime adipisci dolore temporibus aspernatur omnis, fugiat, inventore ipsum suscipit iste, magnam sunt at numquam.
+                    </p> 
+                    <div>
+                        <div>
+                            <span>40h</span>
+                            <small>de bateria</small>
+
+                        </div>
+                        <div>
+                            <span>35db</span>
+                            <small>reduçâo de ruido</small>
+
+                        </div>
+                        <div>
+                            <span>255g</span>
+                            <small>peso leve</small>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
         
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     </body>
 </html>
